@@ -1,15 +1,19 @@
 # ocurec2share
 
 This is the public version of the ocurec software, a Python library
-useful to reconstruct incomplete velocity fiels, based on the DeeSee algorithm,
+useful to reconstruct incomplete velocity fiels, based on the Direct Sampling
+algorithm.
 
 Please let me know if you find this code useful or if you use it in
 some work. Please also let me know if you are available for contributing.
 
 ## Dependencies
 
-This collection of function heavily relies, besides `numpy`, `scipy` and 
-`matplotlib`, also on the geostatistical simulation librari `geone`. For more information
+This collection of functions heavily relies, besides `numpy`, `scipy` and 
+`matplotlib`.
+One of the main requirement is also the geostatistical simulation library `geone`.
+
+For more information
 about `geone`, please see [https://github.com/randlab/geone](https://github.com/randlab/geone)
 
 
