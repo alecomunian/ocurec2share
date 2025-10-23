@@ -1,0 +1,54 @@
+#
+# Input parameters for the corresponding script
+#
+
+[folders]
+input = "/home/alex/workspace/dev/ocurec/tests/GoN/data"
+fig = "fig"
+out = "out"
+
+[files]
+dataset = "hfr_total_march_2012.mat"
+ 
+
+# Size of the output grid
+[grid]
+nx = 31
+ny = 22
+
+
+
+[DS]
+# missing = -9999999
+real = 3
+simType = "sim_one_by_one"
+# simType = "sim_variable_vector"
+distanceThreshold = [0.05, 0.05]
+nneighboringNode = [45, 45]
+simPathType = "random_hd_distance_sort"
+simPathStrength = 1.0
+verbose = 3
+nthreads = -1
+
+[time]
+HH_ini = 0
+DD_ini = 21
+MM_ini = 4
+YY_ini = 2012
+
+HH_ref = 0
+DD_ref = 25
+MM_ref = 4
+YY_ref = 2012
+
+
+# Setting for testing the algoritm
+[test]
+# Where data are removed
+#mode = "left"
+# mode = "random"
+# Percentage of data to be removed from a complete data set
+frac = 0.2
+# Velocity normalization according to DiLemma et al, pp71
+#vel_norm = true
+
